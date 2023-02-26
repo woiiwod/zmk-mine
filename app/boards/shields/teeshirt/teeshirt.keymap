@@ -130,7 +130,7 @@
 // | SHFT |  \  |  ~  |  [  |  ]  |  |  |   |  ^  |  1   |  2  |  3  |  =  | ENT  |
 //                    |CONF | LWR | SPC |ROT| ENT | RSE  | ALT |
                         bindings = < 
-   &kp TAB     &kp SE_QMARK &kp SE_AT    &kp SE_HASH &kp SE_DLLR &kp SE_PRCNT            &kp KP_SLASH    &kp N7  &kp N8   &kp N9 &kp KP_MINUS &kp BSPC
+   &kp TAB     &kp SE_QMARK &kp SE_AT    &kp SE_HASH  &kp SE_DLLR &kp SE_PRCNT            &kp KP_SLASH    &kp N7  &kp N8   &kp N9 &kp KP_MINUS &kp BSPC
    &kp SE_ACAC &kp SE_EXCL  &kp SE_AMPS  &kp SE_LPAR &kp SE_RPAR &kp SE_UNDER            &kp KP_ASTERISK &kp N4  &kp N5   &kp N6 &kp KP_PLUS  &kp DEL
    &kp LSHFT   &kp SE_BSLH  &kp SE_TILDE &kp SE_LBKT &kp SE_RBKT &kp SE_PIPE             &kp SE_CARET    &kp N1  &kp N2   &kp N3 &kp KP_EQUAL &kp ENTER
                                          &mo CONFIG  &kp LALT    &mo NUMPAD   &kp C_MUTE &kp N0          &kp DOT &kp COMMA

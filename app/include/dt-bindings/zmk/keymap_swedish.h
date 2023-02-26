@@ -109,7 +109,7 @@
 #define SE_COLON LS(SE_DOT)   // :
 #define SE_UNDER LS(SE_MINUS)  // _
 
-/* RAlt symbols
+/* RALT symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
  * │   │   │ @ │ £ │ $ │ € │   │ { │ [ │ ] │ } │ \ │   │       │
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
@@ -123,19 +123,19 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define SE_AT    RALT(SE_2)    // @
-#define SE_PND   RALT(SE_3)    // £
-#define SE_DLLR  RALT(SE_4)    // $
-#define SE_EURO  RALT(SE_5)    // €
-#define SE_LBRC  RALT(SE_7)    // {
-#define SE_LBKT  RALT(SE_8)    // [
-#define SE_RBKT  RALT(SE_9)    // ]
-#define SE_RBRC  RALT(SE_0)    // }
-#define SE_BSLH  RALT(SE_PLUS) // (backslash)
+#define SE_AT    RA(SE_2)    // @
+#define SE_PND   RA(SE_3)    // £
+#define SE_DLLR  RA(SE_4)    // $
+#define SE_EURO  RA(SE_5)    // €
+#define SE_LBRC  RA(SE_7)    // {
+#define SE_LBKT  RA(SE_8)    // [
+#define SE_RBKT  RA(SE_9)    // ]
+#define SE_RBRC  RA(SE_0)    // }
+#define SE_BSLH  RA(SE_PLUS) // (backslash)
 // Row 2
-#define SE_TILDE RALT(SE_SQT)  // ~ (dead)
+#define SE_TILDE RA(SE_SQT)  // ~ (dead)
 // Row 4
-#define SE_PIPE  RALT(SE_LT)   // |
-#define SE_MICRO RALT(M)       // µ
+#define SE_PIPE  RA(SE_LT)   // |
+#define SE_MICRO RA(M)       // µ
 
 
