@@ -68,9 +68,8 @@
 #define SE_B     B      // B
 #define SE_N     N      // N
 #define SE_M     M      // M
-#define SE_COMMA COMMA // ,
+#define SE_COMMA COMMA  // ,
 #define SE_DOT   DOT    // .
-#define SE_MINS  KC_SLSH // -
 #define SE_MINUS SLASH  // -
 
 /* Shifted numbers and symbols
@@ -108,7 +107,7 @@
 #define SE_GT    LS(SE_LT)    // >
 #define SE_SEMI  LS(SE_COMMA) // ;
 #define SE_COLON LS(SE_DOT)   // :
-#define SE_UNDER LS(SE_MINS)  // _
+#define SE_UNDER LS(SE_MINUS)  // _
 
 /* RAlt symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
