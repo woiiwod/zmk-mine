@@ -105,21 +105,21 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
-                        label = "COLEMAK";
+                 default_layer {
+                         label = "COLEMAK";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
 // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | DEL  |
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ENT  |
 //                    | GUI |LALT | SPC |ROT| ENT | F13  | FUNC|
-                        bindings = <
-   &kp TAB        &kp Q &kp W &kp F    &kp P      &kp B                       &kp J     &kp L   &kp U     &kp Y   &kp SE_SEMI   &kp BSPC
-   &mt LCTRL ESC  &kp A &kp R &kp S    &lt MOVE T &kp G                       &kp M     &kp N   &kp E     &kp I   &kp O         &kp DEL
-   &kp LSHFT      &kp Z &kp X &kp C    &kp D      &kp V                       &kp K     &kp H   &kp COMMA &kp DOT &kp SE_SLASH  &kp ENTER
-                              &kp LGUI &kp LALT   &lt NUMPAD SPACE &kp C_MUTE &kp ENTER &kp F13 &mo FUNC 
-                        >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
-                };
+                         bindings = <
+    &kp TAB        &kp Q &kp W &kp F    &kp P      &kp B                       &kp J     &kp L   &kp U     &kp Y   &kp SE_SEMI   &kp BSPC
+    &mt LCTRL ESC  &kp A &kp R &kp S    &lt MOVE T &kp G                       &kp M     &kp N   &kp E     &kp I   &kp O         &kp DEL
+    &kp LSHFT      &kp Z &kp X &kp C    &kp D      &kp V                       &kp K     &kp H   &kp COMMA &kp DOT &kp SE_SLASH  &kp ENTER
+                               &kp LGUI &kp LALT   &lt NUMPAD SPACE &kp C_MUTE &kp ENTER &kp F13 &mo FUNC 
+                         >;
+                         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+                 };
 
 
                 numpad_layer {
