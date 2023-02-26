@@ -60,6 +60,7 @@
 #define SE_AE    SQT    // Ä
 #define SE_SQT   NUHS   // '
 // Row 4
+#define SE_LT    NUBS   // <
 #define SE_Z     Z      // Z
 #define SE_X     X      // X
 #define SE_C     C      // C
@@ -67,7 +68,9 @@
 #define SE_B     B      // B
 #define SE_N     N      // N
 #define SE_M     M      // M
-#define SE_LT    NUBS   // <
+#define SE_COMMA COMMA // ,
+#define SE_DOT   DOT    // .
+#define SE_MINS  KC_SLSH // -
 #define SE_MINUS SLASH  // -
 
 /* Shifted numbers and symbols
@@ -84,28 +87,28 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define SE_HALF  LS(SE_SECT) // ½
-#define SE_EXCL  LS(SE_1)    // !
-#define SE_DQT   LS(SE_2)    // "
-#define SE_HASH  LS(SE_3)    // #
-#define SE_SCAR  LS(SE_4)    // ¤
-#define SE_PRCNT LS(SE_5)    // %
-#define SE_AMPS  LS(SE_6)    // &
-#define SE_SLASH LS(SE_7)    // /
-#define SE_LPAR  LS(SE_8)    // (
-#define SE_RPAR  LS(SE_9)    // )
-#define SE_EQL   LS(SE_0)    // =
-#define SE_QMARK LS(SE_PLUS) // ?
-#define SE_GRAVE LS(SE_ACAC) // ` (dead)
+#define SE_HALF  LS(SE_SECT)  // ½
+#define SE_EXCL  LS(SE_1)     // !
+#define SE_DQT   LS(SE_2)     // "
+#define SE_HASH  LS(SE_3)     // #
+#define SE_SCAR  LS(SE_4)     // ¤
+#define SE_PRCNT LS(SE_5)     // %
+#define SE_AMPS  LS(SE_6)     // &
+#define SE_SLASH LS(SE_7)     // /
+#define SE_LPAR  LS(SE_8)     // (
+#define SE_RPAR  LS(SE_9)     // )
+#define SE_EQL   LS(SE_0)     // =
+#define SE_QMARK LS(SE_PLUS)  // ?
+#define SE_GRAVE LS(SE_ACAC)  // ` (dead)
 // Row 2
-#define SE_CARET LS(SE_DIAE) // ^ (dead)
+#define SE_CARET LS(SE_DRSS)  // ^ (dead)
 // Row 3
-#define SE_STAR  LS(SE_QUOT) // *
+#define SE_STAR  LS(SE_SQT)   // *
 // Row 4
-#define SE_GT    LS(SE_LT)   // >
-#define SE_SEMI  LS(SE_COMM) // ;
-#define SE_COLON LS(SE_DOT)  // :
-#define SE_UNDER LS(SE_MINS) // _
+#define SE_GT    LS(SE_LT)    // >
+#define SE_SEMI  LS(SE_COMMA) // ;
+#define SE_COLON LS(SE_DOT)   // :
+#define SE_UNDER LS(SE_MINS)  // _
 
 /* RAlt symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -131,9 +134,9 @@
 #define SE_RBRC  RALT(SE_0)    // }
 #define SE_BSLH  RALT(SE_PLUS) // (backslash)
 // Row 2
-#define SE_TILDE RALT(SE_DIAE) // ~ (dead)
+#define SE_TILDE RALT(SE_SQT)  // ~ (dead)
 // Row 4
-#define SE_PIPE  RALT(SE_LABK)  // |
-#define SE_MICRO RALT(M)        // µ
+#define SE_PIPE  RALT(SE_LT)   // |
+#define SE_MICRO RALT(M)       // µ
 
 
